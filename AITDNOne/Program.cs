@@ -35,7 +35,7 @@ namespace AITDNOne
                     Console.WriteLine("Hello, " + correctedName);
                 }
             }
-            if (args.Length > 1)
+            if (args.Length > 1) // determine if more than one name was entered from the console.
             {
                 multipleUsers = true;
             }
