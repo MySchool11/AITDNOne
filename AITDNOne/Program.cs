@@ -1,18 +1,26 @@
 ﻿using System;
 using System.Linq;
 
-/// <summary>
-/// This program will take names entered at the console when the program is called or will request one when run without parameters
-/// It has four main variables at start; correctedUserName, a string to hold a name(s) which have neem capitalised; sleepHours a double
-/// to hold the number of hours a single user slept; multipleSleepHours a double to hold the total hours slept by more than one user;
-/// multipleUsers, a boolean to inform the program if more than one user name was entered at the console.
-/// Using the information entered by the user it will determine if enough sleep was had by the user(s).
-/// </summary>
-
 namespace AITDNOne
 {
     internal class Program
     {
+
+        /// <summary>
+        /// This program will take names entered at the console when the program is called or will request one when run without parameters
+        /// It has four main variables at start; correctedUserName, a string to hold a name(s) which have neem capitalised; sleepHours a double
+        /// to hold the number of hours a single user slept; multipleSleepHours a double to hold the total hours slept by more than one user;
+        /// multipleUsers, a boolean to inform the program if more than one user name was entered at the console.
+        /// Using the information entered by the user it will determine if enough sleep was had by the user(s).
+        /// </summary>
+        /// <author>
+        /// Samuel Bancroft (c) 2017
+        /// </author>
+        /// <code>
+        /// Made up of one main file
+        /// Program.cs => the main file
+        /// </code>
+
         private static void Main(string[] args)
         {
             var correctedUserName = "";
